@@ -8,4 +8,14 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <platform name="android">
+    <!-- Звичайні іконки (для старих версій Android) -->
+    <icon density="mdpi" src="www/img/icon-background.png" />
+    <!-- ... -->
+
+    <!-- Адаптивні іконки (для Android 8.0+) -->
+    <icon src="icon.png" foreground="www/img/icon-foreground.png" background="www/img/icon-background.png" />
+</platform>
+
 </widget>
+
